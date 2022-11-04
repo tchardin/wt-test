@@ -1,6 +1,4 @@
-# WebTransport example
-
-> Trying to reproduce what seems to be a multiplexer issue with WebTransport
+# Browser Libp2p benchmarks
 
 ## Usage
 
@@ -14,6 +12,7 @@ go run .
 npm install && npm run start
 ```
 
-- Copy the localhost quic multiaddress, open the browser at `localhost:8000` and paste in the text input then press [request].
+- Copy the localhost multiaddress according to the transport you want to benchmark, open the browser at `localhost:8000` and paste in the text input then press [run].
 
-- A Libp2p handler should be called on the go side but isn't.
+- Make sure to switch the multiaddr if changing transport
+
